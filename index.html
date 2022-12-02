@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Meme Generator</title>
+  </head>
+  <style>
+    body {
+      text-align: center;
+    }
+    table {
+      margin: auto;
+    }
+    img {
+      height: 80px;
+    }
+  </style>
+  <body>
+    <h1>Meme Creator</h1>
+    <form action="https://apimeme.com/meme">
+      <table>
+        <tr>
+          <td>
+            <input
+              type="radio"
+              id="10guy"
+              name="meme"
+              value="10-Guy"
+              required
+            />
+            <br />
+            <label for="10guy"
+              ><img
+                src="https://apimeme.com/thumbnail?name=10-Guy"
+                alt="10guy"
+              />
+            </label>
+          </td>
+          <td>
+            <input
+              type="radio"
+              id="2nd-Term-Obama"
+              name="meme"
+              value="2nd-Term-Obama"
+            />
+            <br />
+            <label for="2nd-Term-Obama"
+              ><img
+                src="https://apimeme.com/thumbnail?name=2nd-Term-Obama"
+                alt="2nd-Term-Obama"
+              />
+            </label>
+          </td>
+          <td>
+            <input
+              type="radio"
+              id="Afraid-To-Ask-Andy-Closeup"
+              name="meme"
+              value="Afraid-To-Ask-Andy-Closeup"
+            />
+            <br />
+            <label for="Afraid-To-Ask-Andy-Closeup"
+              ><img
+                src="https://apimeme.com/thumbnail?name=Afraid-To-Ask-Andy-Closeup"
+                alt="Afraid-To-Ask-Andy-Closeup"
+              />
+            </label>
+          </td>
+          <td>
+            <input
+              type="radio"
+              id="1990s-First-World-Problems"
+              name="meme"
+              value="1990s-First-World-Problems"
+            />
+            <br />
+            <label for="1990s-First-World-Problems"
+              ><img
+                src="https://apimeme.com/thumbnail?name=1990s-First-World-Problems"
+                alt="1990s-First-World-Problems"
+              />
+            </label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input
+              type="radio"
+              id="Am-I-The-Only-One-Around-Here"
+              name="meme"
+              value="Am-I-The-Only-One-Around-Here"
+            />
+            <br />
+            <label for="Am-I-The-Only-One-Around-Here"
+              ><img
+                src="https://apimeme.com/thumbnail?name=Am-I-The-Only-One-Around-Here"
+                alt="Am-I-The-Only-One-Around-Here"
+              />
+            </label>
+          </td>
+          <td>
+            <input type="radio" id="Bender" name="meme" value="Bender" />
+            <br />
+            <label for="Bender"
+              ><img
+                src="https://apimeme.com/thumbnail?name=Bender"
+                alt="Bender"
+              />
+            </label>
+          </td>
+          <td>
+            <input type="radio" id="Will" name="meme" value="Will-Ferrell" />
+            <br />
+
+            <label for="Will"
+              ><img
+                src="https://apimeme.com/thumbnail?name=Will-Ferrell"
+                alt="Will-Ferrell"
+              />
+            </label>
+          </td>
+          <td>
+            <input
+              type="radio"
+              id="Super-Cool-Ski-Instructor"
+              name="meme"
+              value="Super-Cool-Ski-Instructor"
+            />
+            <br />
+            <label for="Super-Cool-Ski-Instructor"
+              ><img
+                src="https://apimeme.com/thumbnail?name=Super-Cool-Ski-Instructor"
+                alt="Super-Cool-Ski-Instructor"
+              />
+            </label>
+          </td>
+        </tr>
+      </table>
+      <br /><br /><br />
+      <label for="top-line">Top Line Text</label>
+      <input type="text" name="top" id="top-line" />
+      <br /><br /><br />
+      <label for="bottom">Top Line Text</label>
+      <input type="text" name="bottom" id="bottom" />
+      <br /><br /><br />
+      <button>Generate</button>
+    </form>
+  </body>
+</html>
